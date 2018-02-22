@@ -1,0 +1,38 @@
+---
+# You don't need to edit this file, it's empty on purpose.
+# Edit theme's home layout instead if you wanna make some changes
+# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+layout: home
+---
+
+{% for event in site.events %}
+  <section class="event">
+    <header class="event__header">
+      <span class="event__number">Event #0001</span>
+      <h2 class="event__date">
+        {% assign d = event.date | date: "%-d"  %}
+        {{ event.date | date: "%B" }}
+        {% case d %}
+          {% when '1' or '21' or '31' %}{{ d }}st
+          {% when '2' or '22' %}{{ d }}nd
+          {% when '3' or '23' %}{{ d }}rd
+          {% else %}{{ d }}th
+        {% endcase %}
+      </h2>
+      <span class="event__details">6-9 PM @ <a href="#">Shopify</a> <a href="#" class="event__rsvp external-link">RSVP</a></span>
+    </header>
+    <main class="event__speakers">
+      {% for speaker in event.speakers %}
+        <div class="speaker">
+          <figure class="speaker__figure">
+            <img src="assets/images/{{ speaker.image }}" class="speaker__image" alt="">
+          </figure>
+          <div class="speaker__info">
+            <strong class="speaker__name">{{ speaker.name }}</strong>
+            <span class="speaker__description">{{ speaker.title }}</span>
+          </div>
+        </div>
+      {% endfor %}
+    </main>
+  </section>
+{% endfor %}
