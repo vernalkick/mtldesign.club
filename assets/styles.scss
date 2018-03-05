@@ -246,6 +246,7 @@ h3 {
 .speaker__image {
   position: absolute;
   height: 100%;
+  width: 100%;
   object-fit: cover;
   opacity: 0.85;
   transition: .6s ease-out;
@@ -312,6 +313,14 @@ h3 {
   color: var(--text-grey);
   font-family: var(--alt-font);
   font-size: var(--font-size-5);
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.sponsor-thanks__text {
+  margin-right: 1rem;
+  display: inline-block;
 }
 
 .thumbs-up {
@@ -328,8 +337,14 @@ h3 {
 .editorial {
   line-height: 1.5em;
   font-weight: 500;
-  /* max-width: 800px; */
+  max-width: 1000px;
   font-size: var(--font-size-4);
+}
+
+.editorial p {
+  font-family: var(--alt-font);
+  color: var(--text-grey);
+  line-height: 1.8;
 }
 
 /* MEDIA QUERIES */

@@ -11,7 +11,7 @@ These events should create a rewarding experience for any attendee &mdash; regar
 
 We ask that all Montréal Design Club attendees and speakers be respectful, inclusive, and aware of your words and actions/reactions. Be mindful of how your words or actions might affect others. Let’s all work together to create an environment that makes space for each other’s ideas and perspectives.
 
-We encourage all participants to have open and honest discussions and to be responsible for their words and actions. If you observe someone behaving disrespectfully or insensitively towards someone else, (and if you feel comfortable engaging them,) we encourage you to respectfully ask them to stop. If the person does not respond to your request, or you would prefer not to approach them, please contact a member of the organization team immediately. We’re here to listen and to help resolve any issues that may arise.
+We encourage all participants to have open and honest discussions and to be responsible for their words and actions. If you observe someone behaving disrespectfully or insensitively towards someone else, (and if you feel comfortable engaging them) we encourage you to respectfully ask them to stop. If the person does not respond to your request, or you would prefer not to approach them, please contact a member of the organization team immediately. We’re here to listen and to help resolve any issues that may arise.
 
 If you catch yourself being disrespectful or insensitive, or if you are approached by someone about your words or behavior, we encourage you to pause, listen openly to the concern, own what you’ve said or done, apologize, and move forward in a constructive and respectful way.
 
