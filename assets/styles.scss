@@ -275,6 +275,54 @@ h3 {
 }
 
 
+/* WORKSHOP */
+/* -------------------------------------------------------------------------- */
+
+.workshop {
+  margin-top: var(--speakers-top-offset);
+
+  .event:nth-child(odd) & {
+    margin-left: var(--speaker-image-spacing);
+  }
+
+  .event:nth-child(even) & {
+    margin-right: var(--speaker-image-spacing);
+  }
+}
+
+.workshop__figure {
+  margin: 0;
+  position: relative;
+  z-index: -1;
+  opacity: 0.85;
+}
+
+.workshop__info {
+  margin-top: -1.5rem;
+}
+
+.workshop__name {
+  font-size: var(--font-size-3);
+  line-height: 1;
+  display: block;
+  margin-bottom: 0.5rem;
+  text-shadow: 0 0 20px rgba(31, 31, 31, 0.7);
+}
+
+.workshop__description {
+  font-family: var(--alt-font);
+  color: var(--text-grey);
+  max-width: 500px;
+  display: block;
+}
+
+.workshop__description a {
+  font-family: var(--base-font);
+  font-weight: bold;
+  font-size: 1em;
+}
+
+
 /* FOOTER */
 /* -------------------------------------------------------------------------- */
 
