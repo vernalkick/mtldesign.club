@@ -11,7 +11,7 @@ layout: home
   {% assign count = count | plus: 1 %}
   <section class="event">
     <header class="event__header">
-      <span class="event__number">{{ event.type }}</span>
+      <span class="event__number">Meetup</span>
       <h2 class="event__date">
         {% assign d = event.date | date: "%-d" %}
         {{ event.date | date: "%B" }}
@@ -22,7 +22,7 @@ layout: home
           {% else %}{{ d }}th
         {% endcase %}
       </h2>
-      <span class="event__details">{{ event.time }} @ <a href="https://goo.gl/maps/qvGk9XEVmWk">Shopify</a> <a href="{{ event.rsvp }}" class="event__rsvp external-link">RSVP</a></span>
+      <span class="event__details">{{ event.time }} @ <a href="{{ event.location.url }}">{{ event.location.name }}</a> <a href="{{ event.rsvp }}" class="event__rsvp external-link">RSVP</a></span>
     </header>
     {% if event.speakers %}
       <main class="event__speakers">
