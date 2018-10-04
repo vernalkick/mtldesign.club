@@ -11,7 +11,7 @@ layout: home
   {% assign count = count | plus: 1 %}
   <section class="event">
     <header class="event__header">
-      <span class="event__number">Meetup</span>
+      <span class="event__number">{{event.type}}</span>
       <h2 class="event__date">
         {% assign d = event.date | date: "%-d" %}
         {{ event.date | date: "%B" }}
