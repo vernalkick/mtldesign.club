@@ -5,7 +5,7 @@ import Meetup from '../components/meetup'
 import Workshop from '../components/workshop'
 import Event from '../components/event'
 import Layout from '../components/layout'
-//import moment from 'moment'
+import moment from 'moment'
 
 const IndexPage = ({ data: {allEventsYaml, allWorkshopsYaml} }) => {
   const allItems = [...allEventsYaml.edges, ...allWorkshopsYaml.edges]
@@ -16,16 +16,18 @@ const IndexPage = ({ data: {allEventsYaml, allWorkshopsYaml} }) => {
   return (
     <Layout>
       {allItems.map(edge =>
-        edge.node.speakers ? (
-          <Event event={edge.node} type="Event" key={edge.node}>
-            <Meetup event={edge.node} />
-          </Event>
-        ) : (
-          <Event event={edge.node} type="Workshop" key={edge.node}>
-            <Workshop workshop={edge.node} />
-          </Event>
-        )
-      )}
+          edge.node.speakers ? (
+            !moment(edge.node.date).isBefore() &&
+            <Event event={edge.node} type="Event" key={edge.node}>
+              <Meetup event={edge.node} />
+            </Event>
+          ) : (
+            !moment(edge.node.date).isBefore() &&
+            <Event event={edge.node} type="Workshop" key={edge.node}>
+              <Workshop workshop={edge.node} />
+            </Event>
+          )
+        )}
     </Layout>
   )
 }
