@@ -1,5 +1,4 @@
 import React from 'react'
-import moment from 'moment'
 
 export default ({ event }) => (
   <main className="event__speakers">

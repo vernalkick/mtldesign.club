@@ -5,22 +5,16 @@ import Meetup from '../components/meetup'
 import Workshop from '../components/workshop'
 import Event from '../components/event'
 import Layout from '../components/layout'
-import moment from 'moment'
+//import moment from 'moment'
 
 const IndexPage = ({ data: {allEventsYaml, allWorkshopsYaml} }) => {
   const allItems = [...allEventsYaml.edges, ...allWorkshopsYaml.edges]
-  const sortedItems = allItems.sort((a, b) => {
-    
+  allItems.sort((a, b) => {
+    return a.node.date > b.node.date
   })
-//  const sortedItems = allItems.sort(function (a, b) -> number {
-//    compare
-//  })
-  
-  console.log(sortedItems)
   
   return (
     <Layout>
-    
       {allItems.map(edge =>
         edge.node.speakers ? (
           <Event event={edge.node} type="Event" key={edge.node}>
@@ -32,7 +26,6 @@ const IndexPage = ({ data: {allEventsYaml, allWorkshopsYaml} }) => {
           </Event>
         )
       )}
-    
     </Layout>
   )
 }
