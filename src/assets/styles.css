@@ -381,8 +381,9 @@ h3 {
 .editorial {
   line-height: 1.5em;
   font-weight: 500;
-  max-width: 1000px;
+  max-width: 750px;
   font-size: var(--font-size-4);
+  margin-bottom: 5rem;
 }
 
 .editorial p {
