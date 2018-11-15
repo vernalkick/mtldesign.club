@@ -15,19 +15,17 @@ const IndexPage = ({ data: {allEventsYaml, allWorkshopsYaml} }) => {
   
   return (
     <Layout>
+    <p>Blabababa</p>
       {allItems.map(edge =>
-          edge.node.speakers ? (
-            !moment(edge.node.date).isBefore() &&
-            <Event event={edge.node} type="Event" key={edge.node}>
-              <Meetup event={edge.node} />
-            </Event>
-          ) : (
-            !moment(edge.node.date).isBefore() &&
-            <Event event={edge.node} type="Workshop" key={edge.node}>
-              <Workshop workshop={edge.node} />
-            </Event>
-          )
-        )}
+        !moment(edge.node.date).isBefore() &&
+        <Event event={edge.node} key={edge.node} />
+      )}
+      
+      <h1>Past Events</h1>
+      {allItems.map(edge =>
+        moment(edge.node.date).isBefore() &&
+        <Event event={edge.node} key={edge.node} />
+      )}
     </Layout>
   )
 }
