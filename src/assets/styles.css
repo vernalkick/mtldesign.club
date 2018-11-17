@@ -267,6 +267,20 @@ h3 {
 .speaker__description {
   font-family: var(--alt-font);
   color: var(--text-grey);
+  display: block;
+}
+
+.speaker__language {
+  display: inline-block;
+  border: 1px solid var(--text-grey);
+  border-radius: 20px;
+  padding: 0.2em 0.7em;
+  margin-top: 0.75rem;
+  color: var(--text-grey);
+  font-family: var(--alt-font);
+  text-transform: uppercase;
+  letter-spacing: 0.075em;
+  font-size: 14px;
 }
 
 

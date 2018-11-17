@@ -1,8 +1,8 @@
 import React from 'react'
-import ShopifyLogo from '../assets/images/shopify-logo.svg'
-import ThumbsUp from '../assets/images/thumbs-up.svg'
-import Slack from '../assets/images/slack.svg'
-import Facebook from '../assets/images/fb.svg'
+import ShopifyLogo from '../assets/images/svg/shopify-logo.svg'
+import ThumbsUp from '../assets/images/svg/thumbs-up.svg'
+import Slack from '../assets/images/svg/slack.svg'
+import Facebook from '../assets/images/svg/fb.svg'
 
 const Footer = () => {
   const subject = encodeURIComponent("Hi! I'd like to join the MTL Design Club Slack")

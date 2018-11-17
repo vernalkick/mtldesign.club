@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import Peace from '../assets/images/peace.svg'
+import Peace from '../assets/images/svg/peace.svg'
 
 const Header = ({ siteTitle }) => (
   <header className="header">

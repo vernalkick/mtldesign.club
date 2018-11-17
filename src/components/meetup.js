@@ -10,6 +10,9 @@ export default ({ event }) => (
         <div className="speaker__info">
           <strong className="speaker__name">{speaker.name}</strong>
           <span className="speaker__description">{speaker.title}</span>
+          {speaker.language &&
+            <span className="speaker__language">{speaker.language}</span>
+          }
         </div>
       </div>
     )}
