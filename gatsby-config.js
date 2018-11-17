@@ -10,10 +10,10 @@ module.exports = {
         name: 'gatsby-starter-default',
         short_name: 'starter',
         start_url: '/',
-        background_color: '#D98254',
-        theme_color: '#D98254',
+        background_color: '#1F1F1F',
+        theme_color: '#1F1F1F',
         display: 'minimal-ui',
-        icon: 'src/images/gatsby-icon.png', // This path is relative to the root of the site.
+        icon: 'src/images/icon.png', // This path is relative to the root of the site.
       },
     },
     'gatsby-plugin-offline',
@@ -21,7 +21,7 @@ module.exports = {
       resolve: 'gatsby-plugin-react-svg',
       options: {
           rule: {
-            include: /assets/
+            include: /assets\/images\/svg/
           }
       }
     },

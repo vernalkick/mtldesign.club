@@ -23,8 +23,11 @@ const Layout = ({ children }) => (
         <Helmet
           title={data.site.siteMetadata.title}
           meta={[
-            { name: 'description', content: 'Sample' },
-            { name: 'keywords', content: 'sample, something' },
+            { property: 'og:title', content: 'Montréal Design Club' },
+            { property: 'og:description', content: 'A monthly event series highlighting some of the best designers in Montréal.' },
+            { property: 'og:image', content: 'http://mtldesign.club/assets/images/banner.png'},
+            { name: 'description', content: 'A monthly event series highlighting some of the best designers of Montreal.'},
+            { name: 'author', content: 'Kevin Clark'}
           ]}
         >
           <html lang="en" />
