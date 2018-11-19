@@ -2,6 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Montréal Design Club'
   },
+  pathPrefix: `/images`,
   plugins: [
     'gatsby-plugin-react-helmet',
     {
