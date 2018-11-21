@@ -22,7 +22,7 @@ export default () => (
 
       <p>The intention of this guide is to make sure everyone is aware of the community expectations regarding how we conduct ourselves. If you have questions or would like further clarification on any of the points, please contact: <a href="mailto:kevin@kevinclark.ca" class="external-link">kevin@kevinclark.ca</a></p>
 
-      <p>We look forward to seeing you at the events!</p>
+      <p>We look forward to seeing you at our events!</p>
     </div>
   </Layout>
 )
