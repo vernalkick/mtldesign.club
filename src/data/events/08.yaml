@@ -9,7 +9,7 @@ location:
 speakers:
   - name: Mandeep Basi
     title: UX Researcher, Shopify
-    image: mandeep.jpg
+    image: "../images/mandeep.jpg"
   - name: Andy Healey
     title: Content Strategist, Shopify
-    image: andy.jpg
+    image: "../images/andy.jpg"

@@ -9,7 +9,7 @@ location:
 speakers:
   - name: Lily Jiang
     title: Product designer at Shopify
-    image: lily.jpg
+    image: "../images/lily.jpg"
   - name: Xavier Coulombe-Murray
     title: Product Designer at Deux Huit Huit
-    image: xavier.jpg
+    image: "../images/xavier.jpg"

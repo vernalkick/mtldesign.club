@@ -33,7 +33,9 @@ export const query = graphql`
             url
           }
           rsvp
-          image
+          image {
+            publicURL
+          }
           description
           name
         }
@@ -52,7 +54,9 @@ export const query = graphql`
           speakers {
             name
             title
-            image
+            image {
+              publicURL
+            }
             language
           }
         }

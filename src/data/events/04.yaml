@@ -9,7 +9,7 @@ location:
 speakers:
   - name: Véronique Lafortune
     title: Conceptrice-designer at Billy Club
-    image: vero.jpg
+    image: "../images/vero.jpg"
   - name: Sylvain Grand'Maison
     title: Graphic Design Teacher, Cégep de Sherbrooke
-    image: sylvain.jpg
+    image: "../images/sylvain.jpg"

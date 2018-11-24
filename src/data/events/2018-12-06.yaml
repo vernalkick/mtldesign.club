@@ -9,9 +9,9 @@ location:
 speakers:
   - name: Max Kaplun
     title: Senior Digital Product Designer, Glossier
-    image: max.jpg
     language: English
+    image: "../images/max.jpg"
   - name: Molly Spittal
     title: Designer & Cofounder, The Stowe
-    image: molly2.jpg
     language: English
+    image: "../images/molly2.jpg"
