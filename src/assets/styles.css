@@ -410,6 +410,9 @@ h3 {
 /* PHOTOBOOK */
 /* -------------------------------------------------------------------------- */
 
+.parallax-inner {
+  will-change: transform;
+}
 
 .photobook {
   margin-top: -8rem;
