@@ -406,6 +406,89 @@ h3 {
   line-height: 1.8;
 }
 
+
+/* PHOTOBOOK */
+/* -------------------------------------------------------------------------- */
+
+
+.photobook {
+  margin-top: -8rem;
+  margin-bottom: 6rem;
+}
+
+.photoframe {
+  position: relative;
+}
+
+.photoframe:nth-child(1) {
+  width: 40%;
+  padding-bottom: 25%;
+  margin-left: 60%;
+}
+
+.photoframe:nth-child(2) {
+  width: 40%;
+  padding-bottom: 35%;
+  margin-left: 30%;
+  margin-top: -6%;
+}
+
+.photoframe:nth-child(3) {
+  width: 33%;
+  padding-bottom: 25%;
+  margin-left: -10%;
+  margin-top: -15%;
+}
+
+.photoframe:nth-child(4) {
+  width: 24%;
+  padding-bottom: 34%;
+  margin-left: 85%;
+  margin-top: -18%;
+}
+
+.photoframe:nth-child(5) {
+  width: 62%;
+  padding-bottom: 35%;
+  margin-left: 18%;
+  margin-top: -10%;
+}
+
+.photoframe:nth-child(6) {
+  width: 34%;
+  padding-bottom: 22%;
+  margin-top: -5%;
+}
+
+.photoframe:nth-child(7) {
+  width: 45%;
+  padding-bottom: 32%;
+  margin-left: 45%;
+  margin-top: -13%;
+}
+
+.photoframe:nth-child(8) {
+  width: 30%;
+  padding-bottom: 22%;
+  margin-left: 75%;
+  margin-top: -5%;
+}
+
+.photoframe:nth-child(9) {
+  width: 38%;
+  padding-bottom: 25%;
+  margin-left: 15%;
+  margin-top: -12%;
+}
+
+.photoframe__image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
 /* MEDIA QUERIES */
 /* -------------------------------------------------------------------------- */
 
