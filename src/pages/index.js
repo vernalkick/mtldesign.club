@@ -68,7 +68,7 @@ export const query = graphql`
         }
       }
     }
-    allFile(filter: { extension: { eq: "jpg" }, dir: {regex: "/event-images/"} }, limit: 9) {
+    allFile(filter: { extension: { eq: "jpg" }, dir: {regex: "/event-images/"} }, limit: 9, sort: { fields: [name], order: ASC }) {
       edges {
         node {
           publicURL
