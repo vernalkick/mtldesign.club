@@ -12,7 +12,7 @@ const IndexPage = ({ data: {allEventsYaml, allWorkshopsYaml, allFile} }) => {
           return a.node.date > b.node.date
         })
 
-  const images = allFile.edges.flatMap(edge => edge.node.publicURL)
+  const images = allFile.edges.map(edge => edge.node.publicURL)
 
   return (
     <Layout>
