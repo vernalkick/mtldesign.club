@@ -42,7 +42,6 @@ const Layout = ({ children }) => (
             <Footer />
           </div>
         </div>
-
       </>
     )}
   />

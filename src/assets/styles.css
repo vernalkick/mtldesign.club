@@ -420,61 +420,61 @@ h3 {
   position: relative;
 }
 
-.photoframe:nth-child(1) {
+.photoframe--1 {
   width: 40%;
   padding-bottom: 25%;
   margin-left: 60%;
 }
 
-.photoframe:nth-child(2) {
+.photoframe--2 {
   width: 40%;
   padding-bottom: 35%;
   margin-left: 30%;
   margin-top: -6%;
 }
 
-.photoframe:nth-child(3) {
+.photoframe--3 {
   width: 33%;
   padding-bottom: 25%;
   margin-left: -10%;
   margin-top: -15%;
 }
 
-.photoframe:nth-child(4) {
+.photoframe--4 {
   width: 24%;
   padding-bottom: 34%;
   margin-left: 85%;
   margin-top: -18%;
 }
 
-.photoframe:nth-child(5) {
+.photoframe--5 {
   width: 62%;
   padding-bottom: 35%;
   margin-left: 18%;
   margin-top: -10%;
 }
 
-.photoframe:nth-child(6) {
+.photoframe--6 {
   width: 34%;
   padding-bottom: 22%;
   margin-top: -5%;
 }
 
-.photoframe:nth-child(7) {
+.photoframe--7 {
   width: 45%;
   padding-bottom: 32%;
   margin-left: 45%;
   margin-top: -13%;
 }
 
-.photoframe:nth-child(8) {
+.photoframe--8 {
   width: 30%;
   padding-bottom: 22%;
   margin-left: 75%;
   margin-top: -5%;
 }
 
-.photoframe:nth-child(9) {
+.photoframe--9 {
   width: 38%;
   padding-bottom: 25%;
   margin-left: 15%;
