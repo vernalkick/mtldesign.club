@@ -6,6 +6,7 @@ import { StaticQuery, graphql } from 'gatsby'
 import Header from './header'
 import Footer from './footer'
 import '../assets/styles.css'
+import Banner from '../assets/images/banner.png'
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -25,7 +26,7 @@ const Layout = ({ children }) => (
           meta={[
             { property: 'og:title', content: 'Montréal Design Club' },
             { property: 'og:description', content: 'A monthly event series highlighting some of the best designers in Montréal.' },
-            { property: 'og:image', content: 'http://mtldesign.club/assets/images/banner.png'},
+            { property: 'og:image', content: `${Banner}`},
             { name: 'description', content: 'A monthly event series highlighting some of the best designers of Montreal.'},
             { name: 'author', content: 'Kevin Clark'}
           ]}
