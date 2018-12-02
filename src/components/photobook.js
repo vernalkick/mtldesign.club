@@ -2,9 +2,6 @@ import React from 'react'
 import { ParallaxProvider } from 'react-scroll-parallax'
 import { Parallax } from 'react-scroll-parallax'
 
-import Event01 from '../data/event-images/picture-01.jpg'
-import Event02 from '../data/event-images/picture-02.jpg'
-
 export default ({ images }) => (
   <ParallaxProvider>
     <div className="photobook">

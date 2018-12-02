@@ -20,8 +20,12 @@ const IndexPage = ({ data: {allEventsYaml, allWorkshopsYaml, allFile} }) => {
         !moment(edge.node.date).isBefore() &&
         <Event event={edge.node} key={edge.node} />
       )}
-      <h2>Photos</h2>
-      <p>Follow us on Instagram</p>
+      <section>
+        <header className="section-header">
+          <h2>Photos</h2>
+          <p>Follow us on <a href="https://instagram.com/mtldesignclub" className="link external-link">Instagram</a></p>
+        </header>
+      </section>
       <Photobook images={images} />
     </Layout>
   )
