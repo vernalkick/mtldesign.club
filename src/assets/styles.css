@@ -434,8 +434,8 @@ h3 {
 }
 
 .photobook {
-  margin-top: -9rem;
-  margin-bottom: 6rem;
+  margin-top: -4rem;
+  margin-bottom: 4rem;
 }
 
 .photoframe {
@@ -583,5 +583,10 @@ h3 {
 
   .thumbs-up {
     display: block;
+  }
+
+  .photobook {
+    margin-top: -9rem;
+    margin-bottom: 6rem;
   }
 }
