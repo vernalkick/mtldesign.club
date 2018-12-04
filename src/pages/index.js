@@ -3,13 +3,16 @@ import { graphql } from 'gatsby'
 
 import Event from '../components/event'
 import Layout from '../components/layout'
+import Photobook from '../components/photobook'
 import moment from 'moment'
 
-const IndexPage = ({ data: {allEventsYaml, allWorkshopsYaml} }) => {
+const IndexPage = ({ data: {allEventsYaml, allWorkshopsYaml, allFile} }) => {
   const allItems = [...allEventsYaml.edges, ...allWorkshopsYaml.edges]
-  allItems.sort((a, b) => {
-    return a.node.date > b.node.date
-  })
+        allItems.sort((a, b) => {
+          return a.node.date > b.node.date
+        })
+
+  const images = allFile.edges.map(edge => edge.node.publicURL)
 
   return (
     <Layout>
@@ -17,6 +20,13 @@ const IndexPage = ({ data: {allEventsYaml, allWorkshopsYaml} }) => {
         !moment(edge.node.date).isBefore() &&
         <Event event={edge.node} key={edge.node} />
       )}
+      <section>
+        <header className="section-header">
+          <h2>Photos</h2>
+          <p>Follow us on <a href="https://instagram.com/mtldesignclub" className="link external-link">Instagram</a></p>
+        </header>
+      </section>
+      <Photobook images={images} />
     </Layout>
   )
 }
@@ -33,7 +43,9 @@ export const query = graphql`
             url
           }
           rsvp
-          image
+          image {
+            publicURL
+          }
           description
           name
         }
@@ -52,9 +64,18 @@ export const query = graphql`
           speakers {
             name
             title
-            image
+            image {
+              publicURL
+            }
             language
           }
+        }
+      }
+    }
+    allFile(filter: { extension: { eq: "jpg" }, dir: {regex: "/event-images/"} }, limit: 9, sort: { fields: [name], order: ASC }) {
+      edges {
+        node {
+          publicURL
         }
       }
     }

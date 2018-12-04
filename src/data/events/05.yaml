@@ -9,7 +9,7 @@ location:
 speakers:
   - name: Étienne Morin-Bordeleau
     title: Co-fondateur, Station F-MR
-    image: etienne.jpg
+    image: "../images/etienne.jpg"
   - name: Sarah Di Domenico
     title: Partner, Wedge
-    image: sarah-didomenico.jpg
+    image: "../images/sarah-didomenico.jpg"

@@ -9,7 +9,7 @@ location:
 speakers:
   - name: Alexandrine Allard
     title: Marketing designer at Officevibe
-    image: alexandrine.jpg
+    image: "../images/alexandrine.jpg"
   - name: Emma Craig
     title: UX Researcher at Shopify
-    image: emma.jpg
+    image: "../images/emma.jpg"

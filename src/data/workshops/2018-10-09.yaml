@@ -6,6 +6,6 @@ visible: true
 location:
   name: Shopify
   url: https://goo.gl/maps/qvGk9XEVmWk
-image: Work.Futures.png
+image: "../images/Work.Futures.png"
 name: Work.Futures
 description: A workshop focused on using design to imagine the workplaces and experiences of the future hosted by <a href="https://www.linkedin.com/in/astarnino/">Antonio Starnino</a> from Studio Wé.

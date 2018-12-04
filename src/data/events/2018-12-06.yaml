@@ -4,14 +4,14 @@ time: 6-9 PM
 type: Meetup
 visible: true
 location:
-  name: Shopify
-  url: https://goo.gl/maps/qvGk9XEVmWk
+  name: The Decade Building
+  url: https://goo.gl/maps/bYEzhDuBc192
 speakers:
   - name: Max Kaplun
-    title: Senior Digital Product Designer, Glossier
-    image: max.jpg
+    title: UX Design Lead, SSENSE
     language: English
+    image: "../images/max.jpg"
   - name: Molly Spittal
     title: Designer & Cofounder, The Stowe
-    image: molly2.jpg
     language: English
+    image: "../images/molly2.jpg"
