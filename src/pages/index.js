@@ -38,6 +38,7 @@ export const query = graphql`
         node {
           date(formatString: "YYYY-MM-DD")
           time
+          type
           location {
             name
             url
@@ -56,6 +57,7 @@ export const query = graphql`
         node {
           date(formatString: "YYYY-MM-DD")
           time
+          type
           location {
             name
             url
