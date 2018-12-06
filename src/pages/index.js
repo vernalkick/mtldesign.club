@@ -17,7 +17,7 @@ const IndexPage = ({ data: {allEventsYaml, allWorkshopsYaml, allFile} }) => {
   return (
     <Layout>
       {allItems.map(edge =>
-        !moment(edge.node.date).isBefore() &&
+        moment(edge.node.date).isSameOrAfter(moment(), 'day') &&
         <Event event={edge.node} key={edge.node} />
       )}
       <section>
@@ -36,7 +36,7 @@ export const query = graphql`
     allWorkshopsYaml(sort: { fields: [date], order: ASC }) {
       edges {
         node {
-          date
+          date(formatString: "YYYY-MM-DD")
           time
           location {
             name
@@ -54,7 +54,7 @@ export const query = graphql`
     allEventsYaml(sort: { fields: [date], order: ASC }) {
       edges {
         node {
-          date
+          date(formatString: "YYYY-MM-DD")
           time
           location {
             name
