@@ -20,6 +20,7 @@ const IndexPage = ({ data: {allEventsYaml, allWorkshopsYaml, allFile} }) => {
         moment(edge.node.date).isSameOrAfter(moment(), 'day') &&
         <Event event={edge.node} key={edge.node} />
       )}
+      <div />
       <section>
         <header className="section-header">
           <h2>Photos</h2>
