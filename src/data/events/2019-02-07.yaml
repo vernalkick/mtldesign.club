@@ -1,0 +1,17 @@
+date: 2019-02-07
+rsvp: https://www.eventbrite.com/e/mtl-design-club-0012-tickets-55038004152
+time: 6-9 PM
+type: Event
+visible: true
+location:
+  name: Shopify
+  url: https://goo.gl/maps/qvGk9XEVmWk
+speakers:
+  - name: Audrée Lapierre & Chloé-Ève Levasseur
+    title: FFunction
+    language: Français
+    image: "../images/audree-chloe.png"
+  - name: Alexandre Saumier Demers & Malcolm McCormick
+    title: 2 Lettreurs
+    language: Français/English
+    image: "../images/2lettreurs.jpeg"
