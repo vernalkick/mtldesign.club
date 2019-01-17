@@ -9,7 +9,7 @@ import moment from 'moment'
 const IndexPage = ({ data: {allEventsYaml, allWorkshopsYaml, allFile} }) => {
   const allItems = [...allEventsYaml.edges, ...allWorkshopsYaml.edges]
         allItems.sort((a, b) => {
-          return a.node.date > b.node.date
+          return b.node.date - a.node.date
         })
 
   const images = allFile.edges.map(edge => edge.node.publicURL)
