@@ -18,7 +18,7 @@
 
   /* SPACING */
   --speaker-image-spacing: 2rem;
-  --speakers-top-offset: -4rem;
+  --speakers-top-offset: 2rem;
 }
 
 
@@ -202,22 +202,18 @@ h3 {
 }
 
 .event__rsvp {
-  font-size: var(--font-size-4);
+  font-size: 18px;
   font-family: var(--base-font);
   font-weight: bold;
-  padding-left: 4rem;
   position: relative;
-}
-
-.event__rsvp:before {
-  content: "";
-  display: block;
-  height: 2px;
-  width: calc(4rem - 12px);
   background: #fff;
-  position: absolute;
-  top: 50%;
-  left: 0;
+  color: #333;
+  padding: 1em;
+  border-radius: 12px;
+  text-shadow: none;
+  display: block;
+  text-align: center;
+  margin-top: 1em;
 }
 
 
@@ -525,7 +521,7 @@ h3 {
 
     /* SPACING */
     --speaker-image-spacing: 4rem;
-    --speakers-top-offset: -6rem;
+    --speakers-top-offset: 3rem;
   }
 
   .header {
@@ -548,6 +544,23 @@ h3 {
     float: left;
   }
 
+  .event__details {
+    overflow: hidden;
+    display: block;
+  }
+
+  .event__location {
+    float: left;
+    margin-top: 0.5em;
+  }
+
+  .event__rsvp {
+    float: left;
+    display: inline-block;
+    margin-left: 1.5rem;
+    margin-top: 0;
+  }
+
   .event:nth-child(odd) .speaker:nth-child(even),
   .event:nth-child(odd) .speaker:nth-child(odd) {
     margin-right: 0;
@@ -561,11 +574,11 @@ h3 {
   }
 
   .event:nth-child(odd) .speaker:nth-child(even) {
-    margin-top: -6rem;
+    margin-top: -8rem;
   }
 
   .event:nth-child(even) .speaker:nth-child(odd) {
-    margin-top: -6rem;
+    margin-top: -8rem;
   }
 
   .footer {

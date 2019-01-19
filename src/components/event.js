@@ -9,7 +9,7 @@ export default ({ event }) => (
       <span className="event__number">{event.type}</span>
       <h2 className="event__date">{moment.utc(event.date).format("MMMM Do")}</h2>
       <span className="event__details">
-        {event.time} @ <a href={event.location.url}>{event.location.name}</a> <a href={event.rsvp} className="event__rsvp external-link">RSVP</a>
+        <span className="event__location">{event.time} @ <a href={event.location.url}>{event.location.name}</a></span><a href={event.rsvp} className="event__rsvp">Get a ticket</a>
       </span>
     </header>
 
