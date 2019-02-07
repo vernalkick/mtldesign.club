@@ -1,0 +1,17 @@
+date: 2019-03-07
+rsvp: https://www.eventbrite.com/e/montreal-design-club-0013-tomas-chevez-pierre-etienne-corriveau-tickets-55865766010
+time: 6-9 PM
+type: Event
+visible: true
+location:
+  name: Shopify
+  url: https://goo.gl/maps/qvGk9XEVmWk
+speakers:
+  - name: Tomas Chevez
+    title: Th3rd Wave
+    language: English
+    image: "../images/tomas.jpg"
+  - name: Pierre-Etienne Corriveau
+    title: Hopper
+    language: English
+    image: "../images/pec.jpg"
