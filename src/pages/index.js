@@ -6,30 +6,32 @@ import Layout from '../components/layout'
 import Photobook from '../components/photobook'
 import moment from 'moment'
 
-const IndexPage = ({ data: {allEventsYaml, allWorkshopsYaml, allFile} }) => {
-  const allItems = [...allEventsYaml.edges, ...allWorkshopsYaml.edges]
-        allItems.sort((a, b) => {
-          return b.node.date - a.node.date
-        })
+class IndexPage extends React.Component {
+  constructor(props) {
+    super(props)
 
-  const images = allFile.edges.map(edge => edge.node.publicURL)
+    var allItems = [...this.props.data.allEventsYaml.edges, ...this.props.data.allWorkshopsYaml.edges]
+        allItems = allItems.sort((a, b) => {
+            return moment(b.node.date).isBefore(a.node.date)
+          })
+        allItems = allItems.filter(edge => moment(edge.node.date).isSameOrAfter(moment(), 'day'))
 
-  return (
-    <Layout>
-      {allItems.map(edge =>
-        moment(edge.node.date).isSameOrAfter(moment(), 'day') &&
-        <Event event={edge.node} key={edge.node} />
-      )}
-      <div />
-      <section>
-        <header className="section-header">
-          <h2>Photos</h2>
-          <p>Follow us on <a href="https://instagram.com/mtldesignclub" className="link external-link">Instagram</a></p>
-        </header>
-      </section>
-      <Photobook images={images} />
-    </Layout>
-  )
+    this.state = {
+      test: 'world!',
+      allItems: allItems
+    }
+  }
+
+  render() {
+    return (
+      <Layout>
+        {this.state.allItems.map(edge =>
+          <Event event={edge.node} key={edge.node + Math.random()} />
+        )}
+      </Layout>
+    )
+  }
+
 }
 
 export const query = graphql`

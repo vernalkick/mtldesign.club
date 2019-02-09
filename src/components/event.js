@@ -14,7 +14,8 @@ export default ({ event }) => (
       </span>
     </header>
 
-    <Meetup event={event} />
+    {event.speakers ? <Meetup event={event} /> : <Workshop workshop={event} /> }
+
 
   </section>
 )
