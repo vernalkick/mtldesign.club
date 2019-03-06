@@ -16,8 +16,10 @@ class IndexPage extends React.Component {
           })
         allItems = allItems.filter(edge => moment(edge.node.date).isSameOrAfter(moment(), 'day'))
 
+    var images = this.props.data.allFile.edges.map(edge => edge.node.publicURL)
+
     this.state = {
-      test: 'world!',
+      images: images,
       allItems: allItems
     }
   }
@@ -28,6 +30,7 @@ class IndexPage extends React.Component {
         {this.state.allItems.map(edge =>
           <Event event={edge.node} key={edge.node + Math.random()} />
         )}
+        <Photobook images={this.state.images} />
       </Layout>
     )
   }
