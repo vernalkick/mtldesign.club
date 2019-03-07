@@ -30,7 +30,13 @@ class IndexPage extends React.Component {
         {this.state.allItems.map(edge =>
           <Event event={edge.node} key={edge.node + Math.random()} />
         )}
-        <Photobook images={this.state.images} />
+        <div>
+          <div className="section-header">
+            <h2>Photos</h2>
+            <p>Follow us on <a href="https://www.instagram.com/mtldesignclub/" class="external-link">Instagram</a></p>
+          </div>
+          <Photobook images={this.state.images} />
+        </div>
       </Layout>
     )
   }
