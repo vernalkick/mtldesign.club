@@ -4,13 +4,13 @@ time: 6-9 PM
 type: Event
 visible: true
 location:
-  name: TBD
-  url: https://goo.gl/maps/qvGk9XEVmWk
+  name: Lightspeed HQ
+  url: https://goo.gl/maps/NEM6RTNvX2H2
 speakers:
   - name: Catherine Marois & Bruno Choinière
     title: Akufen
-    language: English
-    image: "../images/catherine-bruno.png"
+    language: Français
+    image: "../images/akufen.jpg"
   - name: Diana Horqque
     title: District 3
     language: English
