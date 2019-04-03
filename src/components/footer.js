@@ -1,4 +1,5 @@
 import React from 'react'
+import Sponsors from './sponsors'
 import ShopifyLogo from '../assets/images/svg/shopify-logo.svg'
 import ThumbsUp from '../assets/images/svg/thumbs-up.svg'
 import Slack from '../assets/images/svg/slack.svg'
@@ -21,12 +22,7 @@ const Footer = () => {
           <span>Join our Slack</span>
         </a>
       </div>
-      <p className="sponsor-thanks">
-        <span className="sponsor-thanks__text">This event series is sponsored by</span>
-        <a href="https://www.shopify.com/careers/locations/montreal">
-          <ShopifyLogo />
-        </a>
-      </p>
+      <Sponsors />
       <ThumbsUp />
     </footer>
   )
