@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import ShopifyLogo from '../assets/images/svg/shopify-logo.svg'
 import FlowLogo from '../assets/images/svg/flow-logo.svg'
 import PeroniLogo from '../assets/images/svg/peroni-logo.svg'
+import LightspeedLogo from '../assets/images/svg/lightspeed-logo.svg'
 
 const Container = styled.div`
   margin-top: 5rem;
@@ -24,6 +25,7 @@ const SponsorList = styled.ul`
   overflow: hidden;
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   margin: -0.75rem -1.5rem;
 `
 
@@ -59,6 +61,11 @@ export default () => (
       <SponsorItem>
         <a href="https://www.instagram.com/peroni_ca/">
           <PeroniLogo />
+        </a>
+      </SponsorItem>
+      <SponsorItem>
+        <a href="https://www.lightspeedhq.com/careers/">
+          <LightspeedLogo />
         </a>
       </SponsorItem>
     </SponsorList>
