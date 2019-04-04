@@ -1,0 +1,17 @@
+date: 2019-05-02
+rsvp: https://www.eventbrite.com/e/montreal-design-club-0015-atelier-barda-jeanne-ayotte-tickets-59804492848
+time: 6-9 PM
+type: Event
+visible: true
+location:
+  name: Shopify
+  url: https://goo.gl/maps/qvGk9XEVmWk
+speakers:
+  - name: Cécile Combelle & Antonio Di Bacco
+    title: Cofondateurs, Atelier Barda
+    language: Français
+    image: "../images/atelier-barda.jpg"
+  - name: Jeanne Ayotte
+    title: Collage Artist
+    language: English
+    image: "../images/jeanne.jpg"
