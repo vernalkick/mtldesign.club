@@ -1,0 +1,17 @@
+date: 2019-06-06
+rsvp: https://www.eventbrite.com/e/montreal-design-club-0016-sarah-schachman-shelley-tran-tickets-61213397921
+time: 6-9 PM
+type: Event
+visible: true
+location:
+  name: Shopify
+  url: https://goo.gl/maps/qvGk9XEVmWk
+speakers:
+  - name: Sarah Schachman
+    title: Senior Designer, Shopify
+    language: English
+    image: "../images/sarah.jpg"
+  - name: Shelley Tran
+    title: Rédactrice
+    language: Français
+    image: "../images/shelley.jpg"
