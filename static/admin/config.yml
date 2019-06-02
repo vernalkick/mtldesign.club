@@ -7,11 +7,12 @@ display_url: mtldesign.club
 collections:
   - name: "events"
     label: "Events"
+    label_singular: 'Event'
     identifier_field: date
     folder: "src/data/events"
     create: true
     slug: "{{year}}-{{month}}-{{day}}"
-    extension: "yaml"
+    format: 'yaml'
     fields:
       - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
       - {label: "Eventbrite URL", name: "rsvp", widget: "string"}
