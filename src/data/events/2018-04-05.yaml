@@ -1,4 +1,4 @@
-date: '2018-04-05'
+date: 2018-04-05
 rsvp: https://www.eventbrite.com/e/montreal-design-club-0004-tickets-43817915565
 time: 6-9 PM
 type: Meetup
@@ -9,7 +9,9 @@ location:
 speakers:
   - name: Lily Jiang
     title: Product designer at Shopify
+    language: English
     image: "../images/lily.jpg"
   - name: Xavier Coulombe-Murray
     title: Product Designer at Deux Huit Huit
+    language: English
     image: "../images/xavier.jpg"
