@@ -11,7 +11,7 @@ collections:
     identifier_field: date
     folder: "src/data/events"
     create: true
-    slug: "{{slug}}"
+    slug: "{{year}}-{{month}}-{{day}}"
     format: 'yaml'
     fields:
       - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
