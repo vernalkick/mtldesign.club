@@ -2,7 +2,7 @@ date: '2019-07-04'
 rsvp: 'https://www.eventbrite.com/preview?eid=62813587130'
 time: 6-9 PM
 type: Event
-visible: true
+visible: false
 location:
   name: Shopify
   url: 'https://goo.gl/maps/qvGk9XEVmWk'
@@ -14,4 +14,4 @@ speakers:
   - image: ../images/mathieu_website.jpg
     language: Français
     name: Mathieu Lachapelle
-    title: 'Cofondateur & éditeur en Chef , DINETTE'
+    title: 'Cofondateur & éditeur en Chef, DINETTE'
