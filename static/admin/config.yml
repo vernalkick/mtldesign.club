@@ -1,0 +1,31 @@
+backend:
+  name: git-gateway
+  branch: gatsby
+media_folder: "src/data/images"
+collections:
+  - name: "events"
+    label: "Events"
+    folder: "src/data/events"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}"
+    fields:
+      - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
+      - {label: "Eventbrite URL", name: "rsvp", widget: "string"}
+      - {label: "Time", name: "time", widget: "string", default: "6-9 PM"}
+      - {label: "Type", name: "type", widget: "hidden", default: "Event"}
+      - {label: "Visible", name: "visible", widget: "boolean", default: true}
+      - label: "Location"
+        name: "location"
+        widget: "object"
+        fields:
+          - {label: "Name", name: "name", widget: "string", default: "Shopify"}
+          - {label: "URL", name: "url", widget: "string", default: "https://goo.gl/maps/qvGk9XEVmWk"}
+      - label: "Speakers"
+        name: "speakers"
+        widget: "list"
+        fields:
+          - {label: "Name", name: "name", widget: "string"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Language", name: "language", widget: "select", options: ["English", "French"], default: "English"}
+          - {label: "Image", name: "image", widget: "image"}
+
