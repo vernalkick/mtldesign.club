@@ -1,0 +1,13 @@
+date: '2019-06-12'
+rsvp: my new test
+time: 6-9 PM
+type: Event
+visible: false
+location:
+  name: Shopify
+  url: 'https://goo.gl/maps/qvGk9XEVmWk'
+speakers:
+  - image: /src/data/images/2lettreurs.jpeg
+    language: English
+    name: Blah Blah
+    title: test title
