@@ -2,6 +2,7 @@ backend:
   name: git-gateway
   branch: gatsby
 media_folder: "src/data/images"
+public_folder: "../images"
 site_url: https://mtldesign.club
 display_url: mtldesign.club
 collections:
@@ -11,10 +12,10 @@ collections:
     identifier_field: date
     folder: "src/data/events"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}"
+    slug: "{{slug}}"
     format: 'yaml'
     fields:
-      - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
+      - {label: "Date", name: "date", widget: "date", format: "YYYY-MM-DD"}
       - {label: "Eventbrite URL", name: "rsvp", widget: "string"}
       - {label: "Time", name: "time", widget: "string", default: "6-9 PM"}
       - {label: "Type", name: "type", widget: "hidden", default: "Event"}
@@ -31,5 +32,5 @@ collections:
         fields:
           - {label: "Name", name: "name", widget: "string"}
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Language", name: "language", widget: "select", options: ["English", "French"], default: "English"}
+          - {label: "Language", name: "language", widget: "select", options: ["English", "Français"], default: "English"}
           - {label: "Image", name: "image", widget: "image"}
