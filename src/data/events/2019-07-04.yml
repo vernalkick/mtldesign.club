@@ -7,11 +7,11 @@ location:
   name: Shopify
   url: 'https://goo.gl/maps/qvGk9XEVmWk'
 speakers:
-  - image: /../images/elianecadieux.jpg
+  - image: ../images/elianecadieux.jpg
     language: Français
     name: Éliane Cadieux
     title: 'Cofondatrice & Directrice de création, BESIDE'
-  - image: /../images/mathieu_website.jpg
+  - image: ../images/mathieu_website.jpg
     language: Français
     name: Mathieu Lachapelle
     title: 'Cofondateur & éditeur en Chef , DINETTE'
