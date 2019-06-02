@@ -1,13 +1,13 @@
-date: '2019-06-12'
-rsvp: my new test
+date: '2019-06-27'
+rsvp: my test will go on
 time: 6-9 PM
 type: Event
 visible: false
 location:
-  name: Shopify co
+  name: Shopify
   url: 'https://goo.gl/maps/qvGk9XEVmWk'
 speakers:
-  - image: /src/data/images/2lettreurs.jpeg
+  - image: /src/data/images/akufen.jpg
     language: English
-    name: Blah Blah
-    title: test title
+    name: Anotha one
+    title: funny
