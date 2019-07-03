@@ -1,0 +1,17 @@
+date: '2019-08-08'
+rsvp: TBD
+time: 6-9 PM
+type: Event
+visible: false
+location:
+  name: Nouvelle Vague
+  url: 'https://goo.gl/maps/PQXFWUsFiPQinSwJ6'
+speakers:
+  - image: /../images/cecile.jpg
+    language: Français
+    name: Cécile Gariépy
+    title: Illustratrice
+  - image: /../images/stephen-robusto.jpg
+    language: English
+    name: Stephen Robusto
+    title: House of Youth
