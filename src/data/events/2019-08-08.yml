@@ -1,8 +1,9 @@
 date: '2019-08-08'
-rsvp: TBD
+rsvp: >-
+  https://www.eventbrite.com/e/montreal-design-club-0018-cecile-gariepy-and-house-of-youth-tickets-64685293454
 time: 6-9 PM
 type: Event
-visible: false
+visible: true
 location:
   name: Nouvelle Vague
   url: 'https://goo.gl/maps/PQXFWUsFiPQinSwJ6'
