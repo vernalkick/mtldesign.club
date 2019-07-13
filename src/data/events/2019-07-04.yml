@@ -3,7 +3,7 @@ rsvp: >-
   https://www.eventbrite.com/e/montreal-design-club-0017-beside-et-dinette-magazine-tickets-62813587130
 time: 6-9 PM
 type: Event
-visible: true
+visible: false
 location:
   name: Shopify
   url: 'https://goo.gl/maps/qvGk9XEVmWk'
