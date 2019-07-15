@@ -8,11 +8,11 @@ location:
   name: Nouvelle Vague
   url: 'https://goo.gl/maps/PQXFWUsFiPQinSwJ6'
 speakers:
-  - image: /../images/cecile.jpg
+  - image: ../images/cecile.jpg
     language: Français
     name: Cécile Gariépy
     title: Illustratrice
-  - image: /../images/stephen-robusto.jpg
+  - image: ../images/stephen-robusto.jpg
     language: English
     name: Stephen Robusto
     title: House of Youth
