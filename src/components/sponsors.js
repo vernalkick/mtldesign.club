@@ -53,21 +53,24 @@ export default () => (
           <ShopifyLogo />
         </a>
       </SponsorItem>
-      <SponsorItem>
-        <a href="https://createwithflow.com">
-          <FlowLogo />
-        </a>
-      </SponsorItem>
+
       <SponsorItem>
         <a href="https://www.instagram.com/peroni_ca/">
           <PeroniLogo />
         </a>
       </SponsorItem>
-      <SponsorItem>
-        <a href="https://www.lightspeedhq.com/careers/">
-          <LightspeedLogo />
-        </a>
-      </SponsorItem>
+      {/*
+        <SponsorItem>
+          <a href="https://createwithflow.com">
+            <FlowLogo />
+          </a>
+        </SponsorItem>
+        <SponsorItem>
+          <a href="https://www.lightspeedhq.com/careers/">
+            <LightspeedLogo />
+          </a>
+        </SponsorItem>
+      */}
     </SponsorList>
   </Container>
 )
