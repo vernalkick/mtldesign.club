@@ -10,8 +10,8 @@ class IndexPage extends React.Component {
   constructor(props) {
     super(props)
 
-    // var allItems = [...this.props.data.allEventsYaml.edges, ...this.props.data.allWorkshopsYaml.edges]
-    var allItems = [...this.props.data.allEventsYaml.edges]
+    var allItems = [...this.props.data.allEventsYaml.edges, ...this.props.data.allWorkshopsYaml.edges]
+    // var allItems = [...this.props.data.allEventsYaml.edges]
         allItems = allItems.sort((a, b) => {
             return moment(b.node.date).isBefore(a.node.date)
           })

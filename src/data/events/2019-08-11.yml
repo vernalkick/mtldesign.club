@@ -1,0 +1,18 @@
+date: '2019-09-05'
+rsvp: >-
+  https://www.eventbrite.com/e/montreal-design-club-0019-michael-turri-kevin-sutherland-tickets-68521085411
+time: 6-9 PM
+type: Event
+visible: true
+location:
+  name: Unity Technologies
+  url: 'https://goo.gl/maps/pfiNgemY59fWkGwR7'
+speakers:
+  - image: ../images/kevin.jpg
+    language: English
+    name: Michael Turri
+    title: Co-founder, fortyforty labs
+  - image: ../images/michael.jpg
+    language: English
+    name: Kevin Sutherland
+    title: Co-founder, fortyforty labs
