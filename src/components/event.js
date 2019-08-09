@@ -1,6 +1,6 @@
 import React from 'react'
 import moment from 'moment'
-import Meetup from '../components/meetup'
+import Speakers from '../components/speakers'
 import Workshop from '../components/workshop'
 import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
@@ -14,8 +14,13 @@ export default ({ event }) => (
       </span>
     </header>
 
-    {event.speakers ? <Meetup event={event} /> : <Workshop workshop={event} /> }
+    {event.speakers &&
+      <Speakers speakers={event.speakers} />
+    }
 
+    {event.workshop &&
+      <Workshop workshop={event.workshop} />
+    }
 
   </section>
 )

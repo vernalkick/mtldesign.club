@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default ({ event }) => {
+export default ({ speakers }) => {
   String.prototype.sanitize = function() {
     var s = this
     if (s.charAt(0) == '/') {
@@ -11,7 +11,7 @@ export default ({ event }) => {
 
   return (
     <main className="event__speakers">
-      {event.speakers && event.speakers.map(speaker =>
+      {speakers.map(speaker =>
         <div className="speaker" key={speaker.name}>
           <figure className="speaker__figure">
             <img src={speaker.image && speaker.image.publicURL && speaker.image.publicURL.sanitize()} className="speaker__image" alt={speaker.name + "'s picture"} />

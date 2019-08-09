@@ -4,9 +4,9 @@ import { Parallax } from 'react-scroll-parallax'
 
 export default ({ images }) => (
     <div className="photobook">
-      {images.map((url, index) =>
+      {images.map((edge, index) =>
           <div className={"photoframe " + "photoframe--" + index}>
-            <img src={url} className={"photoframe__image " + "photoframe__image--" + index} />
+            <img src={edge.node.publicURL} className={"photoframe__image " + "photoframe__image--" + index} />
           </div>
       )}
     </div>

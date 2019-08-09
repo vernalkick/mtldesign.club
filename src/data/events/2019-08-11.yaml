@@ -6,6 +6,7 @@ visible: true
 location:
   name: September Café
   url: https://goo.gl/maps/GuBwjrKEwNQ2CEk68
-image: "../images/photowalk01.jpg"
-name: Photowalk
-description: We'll go for a walk with other photographer and help you discover two beautiful metro stations and their surrounding area.
+workshop:
+  image: "../images/photowalk01.jpg"
+  name: Photowalk
+  description: We'll go for a walk with other photographer and help you discover two beautiful metro stations and their surrounding area.

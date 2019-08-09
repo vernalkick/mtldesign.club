@@ -6,6 +6,7 @@ visible: false
 location:
   name: Shopify
   url: https://goo.gl/maps/qvGk9XEVmWk
-image: "../images/mathias.jpg"
-name: Design Sprint Workshop
-description: Learn how to run your first design sprint with <a href="https://twitter.com/MathiasBoutin">Mathias Boutin</a> from Shopify.
+workshop:
+  image: "../images/mathias.jpg"
+  name: Design Sprint Workshop
+  description: Learn how to run your first design sprint with <a href="https://twitter.com/MathiasBoutin">Mathias Boutin</a> from Shopify.

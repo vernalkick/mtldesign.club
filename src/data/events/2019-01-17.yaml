@@ -6,6 +6,7 @@ visible: false
 location:
   name: Pastel Rita
   url: https://goo.gl/maps/MNELPJwPaWT2
-image: "../images/pastel-rita.jpg"
-name: Pastel Rita Happy Hour
-description: Come have a drink with like-minded designers at the beautiful <a href="https://www.pastelrita.com">Pastel Rita</a> café.
+workshop:
+  image: "../images/pastel-rita.jpg"
+  name: Pastel Rita Happy Hour
+  description: Come have a drink with like-minded designers at the beautiful <a href="https://www.pastelrita.com">Pastel Rita</a> café.
