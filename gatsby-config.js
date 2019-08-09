@@ -28,6 +28,13 @@ module.exports = {
     },
     `gatsby-transformer-yaml`,
     `gatsby-transformer-yaml-netlify`,
+    `gatsby-transformer-sharp`,
+    {
+      resolve: `gatsby-plugin-sharp`,
+      options: {
+        defaultQuality: 100,
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {

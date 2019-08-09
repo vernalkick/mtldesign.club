@@ -8,11 +8,11 @@ location:
   name: Unity Technologies
   url: 'https://goo.gl/maps/pfiNgemY59fWkGwR7'
 speakers:
-  - image: ../images/kevin.jpg
+  - image: ../images/michael.jpg
     language: English
     name: Michael Turri
     title: Co-founder, fortyforty labs
-  - image: ../images/michael.jpg
+  - image: ../images/kevin.jpg
     language: English
     name: Kevin Sutherland
     title: Co-founder, fortyforty labs

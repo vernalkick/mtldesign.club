@@ -44,13 +44,21 @@ export const query = graphql`
             name
             title
             image {
-              publicURL
+              childImageSharp {
+                fluid(maxWidth: 500) {
+                  ...GatsbyImageSharpFluid_noBase64
+                }
+              }
             }
             language
           }
           workshop {
             image {
-              publicURL
+              childImageSharp {
+                fluid(maxWidth: 1000) {
+                  ...GatsbyImageSharpFluid_noBase64
+                }
+              }
             }
             description
             name
@@ -61,7 +69,11 @@ export const query = graphql`
     allFile(filter: { extension: { eq: "jpg" }, dir: {regex: "/event-images/"} }, limit: 9, sort: { fields: [name], order: ASC }) {
       edges {
         node {
-          publicURL
+          childImageSharp {
+            fluid(maxWidth: 600) {
+              ...GatsbyImageSharpFluid_noBase64
+            }
+          }
         }
       }
     }

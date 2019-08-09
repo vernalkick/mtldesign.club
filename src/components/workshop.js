@@ -1,9 +1,10 @@
 import React from 'react'
+import Img from 'gatsby-image'
 
 export default ({ workshop }) => (
   <main className="workshop">
     <figure className="workshop__figure">
-      <img src={workshop.image && workshop.image.publicURL && workshop.image.publicURL} alt="" className="workshop__image" />
+      <Img fluid={workshop.image.childImageSharp.fluid} />
     </figure>
     <div className="workshop__info">
       <strong className="workshop__name">{workshop.name}</strong>

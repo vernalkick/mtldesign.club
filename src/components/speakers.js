@@ -1,4 +1,5 @@
 import React from 'react'
+import Img from 'gatsby-image'
 
 export default ({ speakers }) => {
   String.prototype.sanitize = function() {
@@ -14,7 +15,7 @@ export default ({ speakers }) => {
       {speakers.map(speaker =>
         <div className="speaker" key={speaker.name}>
           <figure className="speaker__figure">
-            <img src={speaker.image && speaker.image.publicURL && speaker.image.publicURL.sanitize()} className="speaker__image" alt={speaker.name + "'s picture"} />
+            <Img fluid={speaker.image.childImageSharp.fluid} />
           </figure>
           <div className="speaker__info">
             <strong className="speaker__name">{speaker.name}</strong>
