@@ -1,6 +1,5 @@
 import React from 'react'
 import Sponsors from './sponsors'
-import ShopifyLogo from '../assets/images/svg/shopify-logo.svg'
 import ThumbsUp from '../assets/images/svg/thumbs-up.svg'
 import Slack from '../assets/images/svg/slack.svg'
 import Facebook from '../assets/images/svg/fb.svg'

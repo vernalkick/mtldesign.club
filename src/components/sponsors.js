@@ -1,9 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import ShopifyLogo from '../assets/images/svg/shopify-logo.svg'
-import FlowLogo from '../assets/images/svg/flow-logo.svg'
 import PeroniLogo from '../assets/images/svg/peroni-logo.svg'
-import LightspeedLogo from '../assets/images/svg/lightspeed-logo.svg'
 
 const Container = styled.div`
   margin-top: 5rem;
@@ -32,15 +30,6 @@ const SponsorList = styled.ul`
 const SponsorItem = styled.li`
   margin: 0.75rem 1.5rem;
   display: block;
-
-  @media (min-width: 1000px) {
-    /* float: left; */
-    /* display: inline-block; */
-  }
-
-  /* & + & {
-    margin-left: 2rem;
-  } */
 `
 
 export default () => (

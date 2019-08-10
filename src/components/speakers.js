@@ -4,7 +4,7 @@ import Img from 'gatsby-image'
 export default ({ speakers }) => {
   String.prototype.sanitize = function() {
     var s = this
-    if (s.charAt(0) == '/') {
+    if (s.charAt(0) === '/') {
       s = s.substr(1)
     }
     return s
