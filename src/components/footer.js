@@ -16,7 +16,7 @@ const Footer = () => {
           <span>Like us on Facebook</span>
         </a>
 
-        <a href={'mailto:kevin@kevinclark.ca?subject=' + subject} className="footer-link-list__item external-link">
+        <a href="https://join.slack.com/t/montrealdesignclub/shared_invite/enQtNzI4OTQ2MzM5Njg2LTAzNjc5M2Q3NTg2ZDg1Y2ZhODJkZTE4YTgxZDkzZGI5M2ZmMGU1YzA1Yzg3NzViZjUzZDM3NDljMmI3ZWUyZDM" className="footer-link-list__item external-link">
           <Slack className="footer-link-list__icon" />
           <span>Join our Slack</span>
         </a>
