@@ -18,7 +18,7 @@ collections:
       - {label: "Date", name: "date", widget: "date", format: "YYYY-MM-DD"}
       - {label: "Eventbrite URL", name: "rsvp", widget: "string"}
       - {label: "Time", name: "time", widget: "string", default: "6-9 PM"}
-      - {label: "Type", name: "type", widget: "hidden", default: "Event"}
+      - {label: "Type", name: "type", widget: "string", default: "Event"}
       - {label: "Visible", name: "visible", widget: "boolean", default: true}
       - label: "Location"
         name: "location"
@@ -34,3 +34,10 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Language", name: "language", widget: "select", options: ["English", "Français"], default: "English"}
           - {label: "Image", name: "image", widget: "image"}
+      - label: "Workshop"
+        name: "workshop"
+        widget: "object"
+        fields:
+          - {label: "Image", name: "image", widget: "image"}
+          - {label: "Name", name: "name", widget: "string"}
+          - {label: "Description", name: "description", widget: "text"}
