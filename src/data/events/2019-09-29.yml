@@ -1,0 +1,12 @@
+date: '2019-09-29'
+rsvp: '#'
+time: 1-5 PM
+type: Photowalk
+visible: true
+location:
+  name: Café St-Henri
+  url: https://goo.gl/maps/2gZc66xqFsaKErB16
+workshop:
+  image: "../images/photowalk01.jpg"
+  name: Photowalk
+  description: We'll go for a walk with other photographer and help you discover two beautiful metro stations and their surrounding area.
