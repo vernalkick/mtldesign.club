@@ -1,0 +1,17 @@
+date: '2019-10-03'
+rsvp: https://www.eventbrite.com/e/billets-montreal-design-club-0020-jeremy-duhamel-kevin-lo-71605643407?ref=eios
+time: 6-9 PM
+type: Event
+visible: true
+location:
+  name: Excentris
+  url: 'https://g.page/CollegeSaletteMTL?share'
+speakers:
+  - image: ../images/jeremy.jpg
+    language: Français
+    name: Jeremy Duhamel
+    title: Designer sénior en expérience client à la Banque Nationale du Canada
+  - image: ../images/loki2.jpg
+    language: English
+    name: Kevin Yuen Kit Lo
+    title: Principal & Creative Director, LOKI

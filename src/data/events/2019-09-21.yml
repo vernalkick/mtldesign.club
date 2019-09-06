@@ -1,0 +1,12 @@
+date: '2019-09-21'
+rsvp: https://www.eventbrite.com/e/billets-montreal-design-club-workshop-with-cynzcakes-71608008481
+time: 1-4 PM
+type: Workshop
+visible: true
+location:
+  name: TBD
+  url: '#'
+workshop:
+  image: "../images/cynzcakes.png"
+  name: Cynzcakes workshop
+  description: Learn the fundamentals of cake design, color mixing and free-flow piping buttercream flowers from <a href="https://www.instagram.com/cynzcakes/">Cynthia&nbsp;Irani</a>.

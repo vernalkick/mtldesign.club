@@ -3,7 +3,7 @@ rsvp: >-
   https://www.eventbrite.com/e/montreal-design-club-0019-michael-turri-kevin-sutherland-tickets-68521085411
 time: 6-9 PM
 type: Event
-visible: true
+visible: false
 location:
   name: Unity Technologies
   url: 'https://goo.gl/maps/pfiNgemY59fWkGwR7'
