@@ -1,0 +1,18 @@
+date: '2019-11-07'
+rsvp: >-
+  https://www.eventbrite.com/e/montreal-design-club-0021-david-roger-julie-tzeng-tickets-74918365849
+time: 6-9 PM
+type: Event
+visible: true
+location:
+  name: Shopify
+  url: 'https://goo.gl/maps/qvGk9XEVmWk'
+speakers:
+  - image: ../images/david.jpg
+    language: English
+    name: David Roger
+    title: Freelance Art Director
+  - image: ../images/julie.jpg
+    language: English
+    name: Julie Tzeng
+    title: Freelance Footwear Designer
