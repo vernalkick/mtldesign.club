@@ -129,7 +129,7 @@ h4 {
 /* -------------------------------------------------------------------------- */
 
 .header {
-  padding: 10% 0 15%;
+  padding: 10% 0 10%;
   position: relative;
 }
 
@@ -143,8 +143,8 @@ h4 {
 .peace {
   display: none;
   position: absolute;
-  top: 10%;
-  left: 64%;
+  top: -10%;
+  left: 74%;
 }
 
 
@@ -160,10 +160,13 @@ h4 {
 .nav-link-list__item {
   font-weight: bold;
   font-size: var(--font-size-4);
+  display: inline-block;
+  margin-right: 3rem;
+  margin-bottom: 1rem;
 }
 
-.nav-link-list__item + .nav-link-list__item {
-  margin-left: 3rem;
+.nav-link-list__item:last-child {
+  margin-right: 0;
 }
 
 
@@ -528,8 +531,8 @@ h4 {
   }
 
   .header {
-    padding-top: 18%;
-    padding-right: 42%;
+    padding-top: 12  %;
+    padding-right: 35%;
   }
 
   .peace {
