@@ -1,0 +1,12 @@
+date: '2020-10-01'
+rsvp: https://community-events.arcteryx.com/designmtl10
+time: 7 PM
+type: Événement en ligne
+visible: true
+location:
+  name: Online
+  url: 'https://community-events.arcteryx.com/designmtl10'
+workshop:
+  image: "../images/arc-teryx.jpg"
+  name: Quel est le futur du design d'espaces publics à Montréal?
+  description: Pour notre premier événement en ligne, nous accueillerons Audrey Girard et Patricia Lussier de la firme d’architecture Lemay et Martin Laviolette, fondateur de Cité Mémoire qui vont nous parler de comment nos espaces publics doivent évoluer pour répondre à notre nouvelle réalité tout en les optimisant pour le long terme.
